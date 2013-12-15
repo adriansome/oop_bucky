@@ -150,11 +150,13 @@ echo 'i am text from a constructor';
 }
 
 class baby extends constructorExample{
+function __construct(){
+echo 'i am text from the child';
 
+}
 }
 
 ?>
-
 
 <html>
     <head>
@@ -162,7 +164,7 @@ class baby extends constructorExample{
     </head>
     <body>
         <?php
-        //artist name
+        //artist name ...
 
         $artist = new artists();
 
